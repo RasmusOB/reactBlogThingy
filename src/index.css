@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(212, 237, 245);
+  color: #333;
+}
+
+header {
+  background-color: lightblue;
+  padding: 1em;
+  text-transform: lowercase;
+  font-size: 110%;
+}
+
+.section {
+  margin: auto;
+  margin-top: 1em;
+  width: 50%;
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 10px 10px 0px 0px 
+}
+.section .title {
+  text-transform: capitalize;
+}
+
+.section hr {
+  margin: 0.5em 0;
+}
+.section p {
+  overflow-wrap: break-word;
+}
